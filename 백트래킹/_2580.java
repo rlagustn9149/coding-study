@@ -28,7 +28,7 @@ public class _2580 {
                 bw.write("\n");
             }
             bw.flush();
-            return;
+            System.exit(0);
         }
 
         if(col == 9 ){

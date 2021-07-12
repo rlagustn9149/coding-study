@@ -1,0 +1,119 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1003",
+            "request": "launch",
+            "mainClass": "동적계획법._1003",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9184",
+            "request": "launch",
+            "mainClass": "동적계획법._9184",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _14888",
+            "request": "launch",
+            "mainClass": "백트래킹._14888",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _14889",
+            "request": "launch",
+            "mainClass": "백트래킹._14889",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _15649",
+            "request": "launch",
+            "mainClass": "백트래킹._15649",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _15650",
+            "request": "launch",
+            "mainClass": "백트래킹._15650",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _15651",
+            "request": "launch",
+            "mainClass": "백트래킹._15651",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _15652",
+            "request": "launch",
+            "mainClass": "백트래킹._15652",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2580",
+            "request": "launch",
+            "mainClass": "백트래킹._2580",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9663",
+            "request": "launch",
+            "mainClass": "백트래킹._9663",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10814",
+            "request": "launch",
+            "mainClass": "정렬._10814",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11650",
+            "request": "launch",
+            "mainClass": "정렬._11650",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11651",
+            "request": "launch",
+            "mainClass": "정렬._11651",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1181",
+            "request": "launch",
+            "mainClass": "정렬._1181",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _18870",
+            "request": "launch",
+            "mainClass": "정렬._18870",
+            "projectName": "coding-study_e3dcdbc2"
+        }
+    ]
+}
