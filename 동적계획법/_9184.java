@@ -17,7 +17,7 @@ public class _9184 {
             b=Integer.parseInt(st.nextToken());
             c=Integer.parseInt(st.nextToken());
             if(a==-1 && b==-1 && c==-1) break;
-            bw.write("w("+a+","+b+","+c+") = "+w(a,b,c)+"\n");
+            bw.write("w("+a+", "+b+", "+c+") = "+w(a,b,c)+"\n");
             bw.flush();
         }
         
