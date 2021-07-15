@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _11053",
+            "request": "launch",
+            "mainClass": "동적계획법._11053",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
