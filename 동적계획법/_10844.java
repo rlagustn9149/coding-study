@@ -21,7 +21,7 @@ public class _10844 {
                 if(j==0) arr[j][i]=arr[1][i-1]%mod;
                 else if(j==9) arr[j][i]=arr[8][i-1]%mod;
                 else{
-                    arr[j][i]=arr[j-1][i-1]+arr[j+1][i-1]%mod;
+                    arr[j][i]=(arr[j-1][i-1]+arr[j+1][i-1])%mod;
                 }
             }
         }
@@ -30,6 +30,6 @@ public class _10844 {
         for(int i=0; i<10; i++){
             sum+=arr[i][n-1];
         }
-        System.out.println(sum);
+        System.out.println(sum%mod);
     }
 }
