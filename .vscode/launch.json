@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _1010",
+            "request": "launch",
+            "mainClass": "정수론._1010",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _1037",
             "request": "launch",
             "mainClass": "정수론._1037",
