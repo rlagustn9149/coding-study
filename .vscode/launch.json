@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _2004",
+            "request": "launch",
+            "mainClass": "정수론._2004",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1676",
+            "request": "launch",
+            "mainClass": "정수론._1676",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9375",
+            "request": "launch",
+            "mainClass": "정수론._9375",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _1010",
             "request": "launch",
             "mainClass": "정수론._1010",
