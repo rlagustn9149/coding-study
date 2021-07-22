@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _1874",
+            "request": "launch",
+            "mainClass": "stack._1874",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _4949",
+            "request": "launch",
+            "mainClass": "stack._4949",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _9012",
+            "request": "launch",
+            "mainClass": "stack._9012",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10773",
+            "request": "launch",
+            "mainClass": "stack._10773",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10828",
+            "request": "launch",
+            "mainClass": "stack._10828",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _2004",
             "request": "launch",
             "mainClass": "정수론._2004",

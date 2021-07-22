@@ -1,7 +1,6 @@
 package 동적계획법;
 
 import java.io.*;
-import java.util.*;
 
 public class _1003 {
     
