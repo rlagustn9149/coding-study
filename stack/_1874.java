@@ -6,7 +6,7 @@ public class _1874 {
     static int size=0;
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
         int n = Integer.parseInt(br.readLine());
         int j=1;
         stack= new int[n];
@@ -14,14 +14,14 @@ public class _1874 {
             int input= Integer.parseInt(br.readLine());
             while(input>=j){
                 push(j);
-                bw.write("+"+"\n");
+                sb.append("+\n");
                 j++;
             }
             if(input<j){
-                if(get()==input)
+                if(stack[size-1]==input)
                 {
                     pop(); 
-                    bw.write('-'+"\n");
+                    sb.append("-\n");
                 }
                 else{
                     System.out.println("NO");
@@ -29,12 +29,9 @@ public class _1874 {
                 }
             }
         }
-        bw.flush();
+        System.out.println(sb);
        
     } 
-    public static int get(){
-        return stack[size-1];
-    }
     public static void push(int x){
         stack[size++]=x;
     }
