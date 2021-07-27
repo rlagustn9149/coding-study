@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _5430",
+            "request": "launch",
+            "mainClass": "Que._5430",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1021",
+            "request": "launch",
+            "mainClass": "Que._1021",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10866",
+            "request": "launch",
+            "mainClass": "Que._10866",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1966",
+            "request": "launch",
+            "mainClass": "Que._1966",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _11866",
             "request": "launch",
             "mainClass": "Que._11866",
