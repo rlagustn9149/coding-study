@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _11401",
+            "request": "launch",
+            "mainClass": "Divide_Conquer._11401",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1629",
+            "request": "launch",
+            "mainClass": "Divide_Conquer._1629",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1780",
+            "request": "launch",
+            "mainClass": "Divide_Conquer._1780",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1992",
+            "request": "launch",
+            "mainClass": "Divide_Conquer._1992",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _2630",
+            "request": "launch",
+            "mainClass": "Divide_Conquer._2630",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _5430",
             "request": "launch",
             "mainClass": "Que._5430",
