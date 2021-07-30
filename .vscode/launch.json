@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _1654",
+            "request": "launch",
+            "mainClass": "binary_search._1654",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _10816",
+            "request": "launch",
+            "mainClass": "binary_search._10816",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1920",
+            "request": "launch",
+            "mainClass": "binary_search._1920",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _11444",
             "request": "launch",
             "mainClass": "Divide_Conquer._11444",
