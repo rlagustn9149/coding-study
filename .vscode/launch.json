@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _2110",
+            "request": "launch",
+            "mainClass": "binary_search._2110",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _2805",
             "request": "launch",
             "mainClass": "binary_search._2805",

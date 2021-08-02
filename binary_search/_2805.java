@@ -14,28 +14,24 @@ public class _2805 {
       st=new StringTokenizer(br.readLine()," ");
       for(int i=0; i<n; i++){
           arr[i]=Integer.parseInt(st.nextToken());
-          end = Math.max(end,arr[i]);
+          end=Math.max(end,arr[i]);
       }
       int mid=0;
-      while(true){
-        if(start>end) break;
-
+      while(start<=end){
         mid = (start+end)/2;
-        int count=0;
+        long count=0;
         for(int i=0; i<n; i++){
-            if(arr[i]-mid>0)
-                count+=arr[i]-mid;
+            if(arr[i]-mid>=0)
+                count+=(arr[i]-mid);
         }
 
         if(count<m){
             end=mid-1;
-        }else if(count>m){
-            start=mid+1;
         }else{
-            break;
+            start=mid+1;
         }
       }
 
-      System.out.println(mid);
+      System.out.println(end);
   }  
 }
