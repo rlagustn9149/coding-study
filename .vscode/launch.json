@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch 전화번호목록",
+            "request": "launch",
+            "mainClass": "programmers.hash.전화번호목록",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch 완주하지못한선수",
+            "request": "launch",
+            "mainClass": "programmers.hash.완주하지못한선수",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
+            "name": "Launch 숫자와문자열과영단어",
+            "request": "launch",
+            "mainClass": "programmers.숫자와문자열과영단어",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch _1655",
             "request": "launch",
             "mainClass": "priority_queue._1655",
