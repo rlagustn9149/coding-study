@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch 주식가격",
+            "request": "launch",
+            "mainClass": "programmers.stack_que.주식가격",
+            "projectName": "coding-study_a6a7634b"
+        },
+        {
+            "type": "java",
             "name": "Launch 전화번호목록",
             "request": "launch",
             "mainClass": "programmers.hash.전화번호목록",
