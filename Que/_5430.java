@@ -2,54 +2,61 @@ package Que;
 import java.io.*;
 import java.util.*;
 public class _5430 {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args ) throws IOException{
+        
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         int n = Integer.parseInt(br.readLine());
+        StringTokenizer st;
         
         for(int i=0; i<n; i++){
-            String f= br.readLine(); // RD를 읽음
-            int k=Integer.parseInt(br.readLine());
-            StringTokenizer st = new StringTokenizer(br.readLine(),"[],");
-            ArrayDeque<Integer> Deq = new ArrayDeque<Integer>();
-            for(int j=0; j<k; j++){
-                Deq.add(Integer.parseInt(st.nextToken()));
+            
+            String fuc = br.readLine();    //RD 읽기
+            int input = Integer.parseInt(br.readLine());   // 입력될 숫자 읽기
+            st = new StringTokenizer(br.readLine(),"[],");  // 숫자 파싱
+            Deque<Integer> deq = new ArrayDeque<>();
+            
+            for(int j=0; j<input; j++){
+                deq.add(Integer.parseInt(st.nextToken()));  // deq 에 저장
             }
-            boolean front=true;   // reverse 판단 front =  true인경우 앞에서 시작 false인경우 뒤에서 시작
-            boolean check =true;  // error인지 아닌지 판단
-            for(int j=0; j<f.length(); j++){
-                char s =f.charAt(j);
+            
+            boolean first = true;   // 앞을 가리킬지 뒤를 가리킬지 포인터
+            boolean error = false;
+            for(int j=0; j<fuc.length(); j++){
+             char a = fuc.charAt(j);
 
-                switch(s){
-                    case 'R':  // 뒤집기
-                        if(front) front=false;
-                        else front=true;
-                        break;
-                    case 'D':
-                        if(Deq.size()==0){sb.append("error\n"); check=false; }
-                        else {
-                            if(front) Deq.pollFirst(); 
-                            else Deq.pollLast();
-                        }
-                       break;
+             if(a == 'R'){
+                first = !first;
+             }
+             else if(a == 'D'){
+                if(deq.size()==0) {sb.append("error\n"); error= true; break;}
+                
+                if(first){deq.removeFirst();}
+                else deq.removeLast();
+             }
+
+            }
+            
+            if(!error){
+            sb.append("[");
+            if(first){
+                if(deq.size()!=0){
+                    sb.append(deq.removeFirst());
+                }
+                while(deq.size()>0){
+                    sb.append(",").append(deq.removeFirst());
+                }
+            }else{
+                if(deq.size()!=0){
+                    sb.append(deq.removeLast());
+                }
+                while(deq.size()>0){
+                    sb.append(",").append(deq.removeLast());
                 }
             }
-            if(check){  // error 여부 판단
-                sb.append('[');
-                if(Deq.size()>0){
-                    if(front){
-                        sb.append(Deq.pollFirst());
-                        while(!Deq.isEmpty())
-                            sb.append(',').append(Deq.pollFirst());
-                    }else{
-                        sb.append(Deq.pollLast());
-                        while(!Deq.isEmpty())
-                            sb.append(',').append(Deq.pollLast());
-                    }
-                }
-                sb.append(']').append('\n');
-            }
-       }
+            sb.append("]\n");
+        }
+    }
         System.out.print(sb);
     }
 }

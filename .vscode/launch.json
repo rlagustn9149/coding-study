@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _5430",
+            "request": "launch",
+            "mainClass": "Que._5430",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
             "name": "Launch 주식가격",
             "request": "launch",
             "mainClass": "programmers.stack_que.주식가격",
