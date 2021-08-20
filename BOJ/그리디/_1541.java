@@ -3,6 +3,7 @@ package 그리디;
 import java.io.*;
 import java.util.*;
 
+
 public class _1541 {
     
     public static int max=100000000;

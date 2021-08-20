@@ -10,6 +10,7 @@ public class _17298 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int n= Integer.parseInt(br.readLine());
+        
         stack=new int[n];
         arr=new int[n];
 
