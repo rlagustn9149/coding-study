@@ -1,4 +1,4 @@
-# lgorithm-study
+# Algorithm-study
 
 ## 백준
 
