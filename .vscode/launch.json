@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _1520",
+            "request": "launch",
+            "mainClass": "BOJ.Dynamic_programe2._1520",
+            "projectName": "coding-study_f96d3116"
+        },
+        {
+            "type": "java",
             "name": "Launch _1300",
             "request": "launch",
             "mainClass": "BOJ.binary_search._1300",
