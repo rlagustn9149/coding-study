@@ -11,16 +11,33 @@ public class _11066 {
             int size = Integer.parseInt(br.readLine());
             StringTokenizer st = new StringTokenizer(br.readLine()," ");
             
-            int[] arr=new int[size];
-            int[][] dp = new int[size][size];
-            
-            for(int j=0; j<size; j++){
-                arr[j]=Integer.parseInt(st.nextToken());
+            int[] arr=new int[size+1];
+            int[][] dp = new int[size+1][size+1];
+            int[] sum=new int[size+1];
+
+            for(int j=1; j<=size; j++){
+                int tmp = Integer.parseInt(st.nextToken());
+                arr[j]= tmp;
+                       
+                sum[j]=sum[j-1]+tmp;
+                     
+            }
+
+
+            for(int j=1; j<=size; j++){
+                for(int m=j-1; m>0; m--){
+                    dp[m][j]=Integer.MAX_VALUE;
+                    for(int k=m; k<j; k++){
+                        dp[m][j]=Math.min(dp[m][j],dp[m][k]+dp[k+1][j]);
+                    }
+                    dp[m][j] +=(sum[j]-sum[m-1]);
+                    //System.out.println(m+" "+j+" = "+dp[m][j]);
+                }
             }
 
              
 
-            //sb.append();
+            sb.append(dp[1][size]+"\n");
         }
         System.out.print(sb.toString());
     }
