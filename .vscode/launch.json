@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _1260",
+            "request": "launch",
+            "mainClass": "bfs_dfs._1260",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _12015",
+            "request": "launch",
+            "mainClass": "binary_search._12015",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
             "name": "Launch _2293",
             "request": "launch",
             "mainClass": "BOJ.Dynamic_programe2._2293",
