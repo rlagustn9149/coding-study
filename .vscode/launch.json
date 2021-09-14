@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _7576",
+            "request": "launch",
+            "mainClass": "bfs_dfs._7576",
+            "projectName": "coding-study_f96d3116"
+        },
+        {
+            "type": "java",
             "name": "Launch _7569",
             "request": "launch",
             "mainClass": "bfs_dfs._7569",
