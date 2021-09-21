@@ -18,7 +18,8 @@
 12. DFS와 BFS (10/11)
 13. two-pointer => 1806
 14. bruteforce => 1062
-15. Bellman_Ford => 1916
+15. Bellman_Ford => 11657
+16. Dijkstra => 1916, 1753
 
 ### 기본 체크
 
