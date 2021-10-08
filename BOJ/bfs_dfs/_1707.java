@@ -1,4 +1,4 @@
-package bfs_dfs;
+package BOJ.bfs_dfs;
 import java.util.*;
 import java.io.*;
 public class _1707 {
@@ -30,8 +30,8 @@ public class _1707 {
                 arr[j][1]=Integer.parseInt(st.nextToken());
             }
             dfs(0,E);
-            if(check) sb.append("YES\n");
-            else sb.append("NO\n");
+            if(check) sb.append("YES"+"\n");
+            else sb.append("NO"+"\n");
     
         }
         System.out.print(sb.toString());
@@ -44,7 +44,7 @@ public class _1707 {
 
         int x = arr[index][0];
         int y = arr[index][1];
-
+        if(x==y) return;
         // x와 y가 이미 set에 들어가 있는경우
         if(visit[x] && visit[y]){ 
             // x,y 가 같은 set(a,b) 에 들어가 있는 경우
