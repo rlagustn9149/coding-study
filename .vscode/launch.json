@@ -6,6 +6,19 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
+            "name": "Launch _1956",
+            "request": "launch",
+            "mainClass": "최단경로._1956",
+            "projectName": "coding-study_e3dcdbc2"
+        },
+        {
+            "type": "java",
+            "name": "Launch _11404",
+            "request": "launch",
+            "mainClass": "최단경로._11404",
+            "projectName": "coding-study_e3dcdbc2"
+=======
             "name": "Launch _1707",
             "request": "launch",
             "mainClass": "BOJ.bfs_dfs._1707",
@@ -157,6 +170,7 @@
             "request": "launch",
             "mainClass": "BOJ.Dynamic_programe2._11049",
             "projectName": "coding-study_f96d3116"
+>>>>>>> b8dbe2ffe755a14fea6e71a5757b709c73b092c8
         },
         {
             "type": "java",
