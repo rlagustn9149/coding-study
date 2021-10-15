@@ -16,7 +16,7 @@
 10. 우선순위 큐  (4/4)
 11. 동적 계획법 2 (7/7)
 12. DFS와 BFS (10/11)
-13. 최단 경로 (5/7) => 최단경로와 타임머신은 Coding_Test_Study repository에 업로드함
+13. 최단 경로 (6/7) => 최단경로와 타임머신은 Coding_Test_Study repository에 업로드함
 14. two-pointer => 1806
 15. bruteforce => 1062
 16. Bellman_Ford => 11657
